@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  php:
+    environment:
+      - APP_ENV=prod
+      - APP_DEBUG=0
+    build:
+      context: ""
+      dockerfile: docker-compose/Dockerfile
+    entrypoint: /bin/sh
+    command: ./docker-compose/entrypoint.sh
+    ports:
+      - "9090:8080"
+    volumes:
+      - .:/var/www/html:cached

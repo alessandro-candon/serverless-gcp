@@ -1,0 +1,23 @@
+steps:
+  # build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'build', '-t', 'gcr.io/test-309616/cloudruntest', '-f', 'docker-compose/Dockerfile', '.' ]
+    # push the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'push', 'gcr.io/test-309616/cloudruntest' ]
+    # deploy to Cloud Run
+  - name: "gcr.io/cloud-builders/gcloud"
+    args: [
+        'run',
+        'deploy',
+        'cloudruntest',
+        '--image',
+        'gcr.io/test-309616/cloudruntest',
+        '--region',
+        'europe-west4',
+        '--platform',
+        'managed',
+        '--allow-unauthenticated',
+        '--memory',
+        '128Mi'
+    ]

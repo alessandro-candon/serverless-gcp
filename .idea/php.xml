@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/appengine/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/appengine/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/appengine/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/appengine/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/appengine/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/appengine/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/appengine/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/appengine/vendor/composer" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/appengine/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/appengine/vendor/symfony/maker-bundle" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+</project>
